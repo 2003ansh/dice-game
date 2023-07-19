@@ -1,4 +1,14 @@
-
+const name1=prompt("enter player1 name");
+const name2=prompt("enter player2 name");
+alert("hello")
+if(name1==='' ||name2===''){
+    alert("As you hve not set the name of either player the page is reloaded")
+    window.location.reload();
+}
+let box2=document.querySelector('.box2 h2')
+box2.innerHTML=name1;
+let box3=document.querySelector('.box3 h2 ')
+box3.innerHTML=name2;
 //-----------------------------------------------------------------------
 // for img 2
 let a = 'dice-06.png';
@@ -87,5 +97,4 @@ function checkScreenWidth1() {
     }
 }
 
-    
 
